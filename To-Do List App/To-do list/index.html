@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do List</title>
+    <link rel="icon" href="https://cdn.icon-icons.com/icons2/3053/PNG/512/microsoft_to_do_macos_bigsur_icon_189960.png" type="image/icon type">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="todo-app">
+        <h2>To-do List <img src="https://cdn.icon-icons.com/icons2/3053/PNG/512/microsoft_to_do_macos_bigsur_icon_189960.png" alt="to-do list image"></h2>
+        <div class="row">
+            <input type="text" id="input-box" placeholder="What do you need to do today?">
+            <button id="button" onclick="addTask()">Go</button>
+        </div>
+        <ul id="list-container">
+        </ul>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
